@@ -1,0 +1,5 @@
+*.parcel-cache
+node_modules
+dist
+src/Styles/*.css
+src/Styles/*.css.map

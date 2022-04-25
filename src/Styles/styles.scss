@@ -1,55 +1,42 @@
-@import "colors.scss", "fonts.scss";
+@import "colors.scss", "fonts.scss", "rating.scss";
 
 body {
 	background: $body-color;
 	font-family: $main-font;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	min-height: 100vh;
+	overflow: hidden;
 	margin: 0;
 
 	h1 {
 		font-weight: 700;
-		color: $h-color;
+		color: $light;
 		font-size: 25px;
 		letter-spacing: 1.5px;
+		margin: 15px 0;
 	}
 
 	p {
 		font-size: 15px;
 		font-weight: 400;
-		color: $p-color;
-		margin: 0;
+		line-height: 1.5;
+		color: $medium;
+		margin: 0 auto;
 	}
 }
 
-.main__box {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	margin: auto;
-	width: 300px;
+@media (max-width: 600px) {
+	.box__rating {
+		margin: 0 30px;
+		width: 300px;
+	}
+}
 
-	.rating {
-		background-image: linear-gradient(to left top, $body-color, $b-color);
-		display: flex;
-		border-radius: 25px;
-		box-shadow: rgb(0 0 0 / 73%) 0 0 10px 0;
-		flex-direction: column;
-		justify-content: center;
-		padding: 0 30px;
-		width: 320px;
-		height: 350px;
-
-		.rating__numbers {
-			display: flex;
-			flex-direction: row;
-			justify-content: space-evenly;
-			margin: 20px 0;
-
-			button {
-				background-color: transparent;
-			}
-		}
-		// @media (min-width: 1440px) and (max-width: 768px) {
-		// }
+@media (min-width: 1280px) {
+	.box__rating {
+		width: 450px;
 	}
 }

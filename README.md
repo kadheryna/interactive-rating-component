@@ -13,13 +13,12 @@ Users should be able to:
 
 ### Screenshot
 
-[]
+[<img width="982" alt="image" src="https://user-images.githubusercontent.com/72280779/165379453-48064176-ff86-49ba-b350-4d1456bc94ea.png">
+]
 
 ### Links
 
-- Live Site URL:
-
-## My process
+- Live Site URL: [https://kadheryna.github.io/interactive-rating-component/]
 
 ### Built with
 

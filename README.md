@@ -18,7 +18,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [https://kadheryna.github.io/interactive-rating-component/]
+- Live Site URL: [https://interrating-component.netlify.app/]
 
 ### Built with
 

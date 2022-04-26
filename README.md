@@ -13,8 +13,8 @@ Users should be able to:
 
 ### Screenshot
 
-[<img width="982" alt="image" src="https://user-images.githubusercontent.com/72280779/165379453-48064176-ff86-49ba-b350-4d1456bc94ea.png">
-]
+<img width="982" alt="image" src="https://user-images.githubusercontent.com/72280779/165379453-48064176-ff86-49ba-b350-4d1456bc94ea.png">
+
 
 ### Links
 

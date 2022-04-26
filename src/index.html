@@ -25,7 +25,7 @@
 			<div class="box__rating">
 				<div class="rating__content">
 					<span class="star"
-						><img class="star__image" src="./Images/icon-star.svg"
+						><img class="star__image" alt="Star" src="./Images/icon-star.svg"
 					/></span>
 
 					<h1>How did we do?</h1>
@@ -35,24 +35,37 @@
 					</p>
 				</div>
 				<div class="rating__numbers">
-					<button class="number__button" type="button">1</button>
-					<button class="number__button" type="button">2</button>
-					<button class="number__button" type="button">3</button>
-					<button class="number__button" type="button">4</button>
-					<button class="number__button" type="button">5</button>
+					<button class="number__btn" type="button" value="1">1</button>
+					<button class="number__btn" type="button" value="2">2</button>
+					<button class="number__btn" type="button" value="3">3</button>
+					<button class="number__btn" type="button" value="4">4</button>
+					<button class="number__btn" type="button" value="5">5</button>
 				</div>
 				<div class="submit__button">
-					<button class="submit" type="button">SUBMIT</button>
+					<button class="submit" onClick="submitValue()" type="button">
+						SUBMIT
+					</button>
 				</div>
-
-				<!-- SECOND BOX
-				<section>
-					You selected
-					 Add rating here
-					out of 5 Thank you! We appreciate you taking the time to give a
-					rating. If you ever need more support, don’t hesitate to get in touch!
-				</section> -->
 			</div>
 		</section>
+		<section class="second__box">
+			<div class="box__selected">
+				<div class="selected__info">
+					<span class="info__image"
+						><img
+							class="image__thanks"
+							alt="Thanks"
+							src="./Images/illustration-thank-you.svg"
+					/></span>
+					<p class="result"></p>
+					<h1>Thank you!</h1>
+					<p>
+						We appreciate you taking the time to give a rating. If you ever need
+						more support, dont hesitate to get in touch!
+					</p>
+				</div>
+			</div>
+		</section>
+		<script src="./index.js"></script>
 	</body>
 </html>

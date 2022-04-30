@@ -3,6 +3,7 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	max-width: 40vw;
 
 	.star {
         padding: 25px 0 5px;
@@ -19,7 +20,7 @@
 		box-shadow: rgb(0 0 0 / 73%) 0 0 10px 0;
 		flex-direction: column;
 		justify-content: space-evenly;
-		width: 390px;
+		// width: 390px;
 
 		.rating__content {
 			display: flex;

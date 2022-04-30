@@ -3,6 +3,7 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	width: 50vw;
 
 	.box__selected {
 		background-image: linear-gradient(to top right, $dark, $body-color);

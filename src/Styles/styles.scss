@@ -27,17 +27,16 @@ body {
 	}
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
 	.box__rating,
 	.box__selected {
-		width: 90vw;
-		margin: 0 10px;
+		width: 80vw;
 	}
 }
 
 @media (min-width: 1280px) {
 	.box__rating,
 	.box__selected {
-		width: 30vw;
+		width: 25vw;
 	}
 }

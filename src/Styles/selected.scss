@@ -3,7 +3,7 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	width: 50vw;
+	max-width: 40vw;
 
 	.box__selected {
 		background-image: linear-gradient(to top right, $dark, $body-color);
@@ -22,6 +22,11 @@
 
 			.info__image {
 				margin-bottom: 30px;
+
+				image {
+					display: flex;
+					margin: auto;
+				}
 			}
 
 			.result {
@@ -29,7 +34,8 @@
 				color: $primary-color;
 				border-color: transparent;
 				border-radius: 35px;
-				padding: 4px 40px;
+				padding: 2%;
+				
 			}
 
 			h1 {

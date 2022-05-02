@@ -6,7 +6,7 @@
 	max-width: 40vw;
 
 	.star {
-        padding: 25px 0 5px;
+		padding: 25px 0 5px;
 		.star__image {
 			background-color: $dark;
 			border-radius: 35px;
@@ -20,18 +20,16 @@
 		box-shadow: rgb(0 0 0 / 73%) 0 0 10px 0;
 		flex-direction: column;
 		justify-content: space-evenly;
-		padding: 2% 10% 0;
-
 		.rating__content {
 			display: flex;
 			flex-direction: column;
-			
+			padding: 0 8%;
 		}
 		.rating__numbers {
 			display: flex;
 			flex-direction: row;
 			justify-content: space-evenly;
-			padding: 5% 0 8%;
+			padding: 5% 10% 8%;
 
 			.number__btn {
 				background-color: $dark;

@@ -11,9 +11,8 @@ numberButton.forEach(button => {
 });
 
 const submitValue = () => {
-	if (btnValue !== undefined) {
-		firstBox.style.display = "none";
-		secondBox.style.display = "flex";
-		result.innerHTML = "You selected " + btnValue + " out of 5";
-	}
+	if (btnValue === undefined) return;
+	firstBox.style.display = "none";
+	secondBox.style.display = "flex";
+	result.innerHTML = `You selected ${btnValue} out of 5`;
 };

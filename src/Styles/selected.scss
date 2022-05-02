@@ -22,6 +22,11 @@
 
 			.info__image {
 				margin-bottom: 30px;
+
+				image {
+					display: flex;
+					margin: auto;
+				}
 			}
 
 			.result {
@@ -29,7 +34,8 @@
 				color: $primary-color;
 				border-color: transparent;
 				border-radius: 35px;
-				padding: 4px 40px;
+				padding: 2%;
+				
 			}
 
 			h1 {

@@ -8,16 +8,16 @@
 	.box__selected {
 		background-image: linear-gradient(to top right, $dark, $body-color);
 		display: flex;
-		border-radius: 25px;
-		box-shadow: rgb(0 0 0 / 73%) 0 0 10px 0;
 		flex-direction: column;
 		justify-content: space-evenly;
+		border-radius: 25px;
+		box-shadow: rgb(0 0 0 / 73%) 0 0 10px 0;
 
 		.selected__info {
 			display: flex;
 			flex-direction: column;
 			text-align: center;
-			padding: 30px;
+			padding: 9%;
 
 			.info__image {
 				margin-bottom: 30px;
@@ -29,6 +29,7 @@
 			}
 
 			.result {
+				font-size: 15px;
 				background-color: $dark;
 				color: $primary-color;
 				border-color: transparent;
